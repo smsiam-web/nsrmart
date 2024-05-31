@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="flex flex-wrap pt-20 pb-12 border-b items-stretch justify-between transition-all">
           <div className="max-w-sm xl:max-w-md mb-12">
             <h4 className="footer-title">
-              সাবা এগ্রো নার্সারি - একটি বিশ্বস্তার নাম{" "}
+              NSR Mart - একটি বিশ্বস্তার নাম{" "}
             </h4>
             <div className="flex flex-col gap-3">
               <p className="pb-6">
@@ -47,7 +47,7 @@ const Footer = () => {
                 ordering, the mangoes are
               </p>
               {/* contact  */}
-              <Link href="tel:+8801601906197" className="mb-4">
+              <Link href="tel:+8801974866985" className="mb-4">
                 <div className="flex gap-3 items-stretch">
                   <img
                     src="/icons/phone.svg"
@@ -56,20 +56,20 @@ const Footer = () => {
                   />
                   <div>
                     <p>Hotline 24/7:</p>
-                    <span className="font-bold">(+880) 1601-906197</span>
+                    <span className="font-bold">(+880) 1974-866985</span>
                   </div>
                 </div>
               </Link>
               {/* address  */}
               <div className="flex gap-3 items-center">
                 <img src="/icons/home.svg" alt="phone" className="w-4" />
-                <address>বনবেলঘড়িয়া বাজার, নাটোর সদর, নাটোর, Natore, Bangladesh</address>
+                <address>Mirpur-10, Dhaka-1216, Bangladesh</address>
               </div>
               {/* email  */}
-              <Link href="mailto:ceo.sabaagro@gmail.com">
+              <Link href="mailto:nsrmart.com.bd@gmail.com">
                 <div className="flex gap-3 items-center">
                   <img src="/icons/envelop.svg" alt="phone" className="w-4" />
-                  <p>ceo.sabaagro@gmail.com</p>
+                  <p>nsrmart.com.bd@gmail.com</p>
                 </div>
               </Link>
             </div>

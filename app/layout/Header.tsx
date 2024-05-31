@@ -34,8 +34,8 @@ const Header = () => {
 
           {/* Contact */}
           <div className="group xl:flex flex-col hidden">
-            <Link className="text-2xl font-bold" href="tel:+8801581723700">
-              +880 1581-723700
+            <Link className="text-2xl font-bold" href="tel:+8801974866985">
+              +880 1974-866985
             </Link>
             <p className="self-end group-hover:text-primary animate-duration text-sub-title">
               Support 24/7
