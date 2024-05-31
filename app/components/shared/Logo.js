@@ -10,7 +10,7 @@ const Logo = () => {
         whileHover={{ scale: 1.03 }}
       >
         <Image
-          src="/sabaagro_logo.jpg"
+          src="/nsrmart_logo.png"
           width="60"
           height="60"
           // objectFit="contain"
@@ -19,9 +19,9 @@ const Logo = () => {
       </motion.div>
       <div className="border-l-[6px] sm:border-l-8 pl-3">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-green-700">
-          SABA
+          NSR
         </h2>
-        <span className="text-base font-semibold text-primary">AGRO</span>
+        <span className="text-base font-semibold text-primary">MART.</span>
       </div>
     </div>
   );

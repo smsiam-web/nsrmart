@@ -16,7 +16,7 @@ const OurStaff = () => {
         <Drawer
           opened={opened}
           onClose={close}
-          zIndex={9999}
+          zIndex={99999}
           withCloseButton={false}
           position="right"
           size="lg"
