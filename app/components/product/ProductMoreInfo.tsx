@@ -27,7 +27,7 @@ const ProductMoreInfo = ({ product = null }) => {
             <Tabs.Tab
               value="additionalinfo"
               className="text-lg font-semibold text-sub-title"
-              icon={<BiInfoCircle size={14} />}
+             
             >
               Additional Info
             </Tabs.Tab>
