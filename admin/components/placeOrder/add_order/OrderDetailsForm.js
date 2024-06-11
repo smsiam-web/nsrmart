@@ -136,8 +136,8 @@ const OrderDetailsForm = () => {
         <FormRadio
           type="text"
           name="delivery_type"
-          forTrue="Point"
-          forFalse="Home"
+          forTrue="Home"
+          forFalse="Point"
         />
       </div>
       <div>

@@ -308,7 +308,7 @@ const ProductDetails = ({ disabled }) => {
                   Mon - Fri: 7:00 am - 18:00PM
                 </span>
                 <p className="text-xl md:text-2xl font-bold text-title mt-5">
-                  +8801601906197
+                  +8801974-866985
                 </p>
               </div>
             </div>

@@ -169,39 +169,40 @@ export const TCATEGORY = [
 ];
 export const PTYPE = [
   {
-    name: "ফলসহ গাছ",
-    id: "ফলসহ গাছ",
+    name: "তেল",
+    id: "তেল",
   },
   {
-    name: "রেডি সেটাপ গাছ",
-    id: "রেডি সেটাপ গাছ",
+    name: "ঘি",
+    id: "ঘি",
   },
   {
-    name: "ফলসহ রেডি সেটাপ গাছ",
-    id: "ফলসহ রেডি সেটাপ গাছ",
+    name: "আম",
+    id: "আম",
   },
   {
-    name: "মাতৃকলম গাছ",
-    id: "মাতৃকলম গাছ",
+    name: "মধু",
+    id: "মধু",
   },
   {
-    name: "বীজের গাছ",
-    id: "বীজের গাছ",
+    name: "বাটার",
+    id: "বাটার",
   },
   {
-    name: "টিস্যু কালচার পদ্ধতি",
-    id: "টিস্যু কালচার পদ্ধতি",
+    name: "Others",
+    id: "Others",
   },
 ];
 export const COURIER = [
   {
-    name: "Sundorbon",
-    id: "Sundorbon",
-  },
-  {
     name: "Steadfast",
     id: "Steadfast",
   },
+  {
+    name: "Sundorbon",
+    id: "Sundorbon",
+  },
+
   {
     name: "Sodagor",
     id: "Sodagor",

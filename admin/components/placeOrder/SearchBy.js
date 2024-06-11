@@ -22,7 +22,7 @@ import Link from "next/link";
 import { selectOrder } from "@/app/redux/slices/orderSlice";
 
 const SearchBy = () => {
-  const [currentValue, setCurrentValue] = useState("SA01");
+  const [currentValue, setCurrentValue] = useState("NSR01");
   const [filterOrder, setFilterOrder] = useState(null);
   const [openedd, setOpened] = useState(null);
   const [opened, { open, close }] = useDisclosure(false);
@@ -32,7 +32,7 @@ const SearchBy = () => {
 
   useEffect(() => {
     if (!!opened) return;
-    setCurrentValue("SA01");
+    setCurrentValue("NSR01");
     setFilterOrder(null);
   }, [opened]);
 
@@ -94,7 +94,7 @@ const SearchBy = () => {
 
   useEffect(() => {
     const value = currentValue?.toUpperCase();
-    if (value?.split("0")[0] === "SA" && value.length === 8) {
+    if (value?.split("0")[0] === "NSR" && value.length === 9) {
       filter(value);
     }
   }, [currentValue]);
